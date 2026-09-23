@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ltt",
+    "module": "pose-sdk",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pose-sdk-1.0.5.aar",
+          "url": "pose-sdk-1.0.5.aar",
+          "size": 2379422,
+          "sha512": "539d10531d1de92237e1e3bf009894bae40125c7a9a6954f2e78491cfb4adf279262310516374632a2c6289c64ed44facdb2429ccaa9e40df3cac4dce91c4916",
+          "sha256": "b92a6a39740bc0663d5be01ccbedcd116146871b05e593a7406e15f6787e167e",
+          "sha1": "d4a434f8be379b376a7ba061c3edc3c8535e4434",
+          "md5": "becd817e3acbe5b715d2ea5469d35244"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "pose-detection",
+          "version": {
+            "requires": "18.0.0-beta4"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "pose-detection-accurate",
+          "version": {
+            "requires": "18.0.0-beta4"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "face-detection",
+          "version": {
+            "requires": "16.1.5"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pose-sdk-1.0.5.aar",
+          "url": "pose-sdk-1.0.5.aar",
+          "size": 2379422,
+          "sha512": "539d10531d1de92237e1e3bf009894bae40125c7a9a6954f2e78491cfb4adf279262310516374632a2c6289c64ed44facdb2429ccaa9e40df3cac4dce91c4916",
+          "sha256": "b92a6a39740bc0663d5be01ccbedcd116146871b05e593a7406e15f6787e167e",
+          "sha1": "d4a434f8be379b376a7ba061c3edc3c8535e4434",
+          "md5": "becd817e3acbe5b715d2ea5469d35244"
+        }
+      ]
+    }
+  ]
+}
